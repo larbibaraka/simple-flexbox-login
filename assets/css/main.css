@@ -5,12 +5,9 @@ body {
 }
 body {
   margin: 0;
-  background: #eee url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background: #56CCF2;  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #2F80ED, #56CCF2); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+   background: #56CCF2;  
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2); 
+  background: linear-gradient(to right, #2F80ED, #56CCF2); 
 }
 
 .flex-container {
@@ -35,6 +32,9 @@ body {
   height: 300px; */
   max-width: 900px;
   height: 500px;
+  -webkit-box-shadow: 3px 10px 40px 13px rgba(0,146,194,1);
+-moz-box-shadow: 3px 10px 40px 13px rgba(0,146,194,1);
+box-shadow: 3px 10px 40px 13px rgba(0,146,194,1);
 }
 
 .flex-item {
@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f7f7f7;
+  
   border-radius: 3%;
 }
 .formwrapper {
@@ -81,20 +81,24 @@ body {
   -ms-flex-align: center;
   align-items: center;
   width: 700px;
+  
 }
 
 .imagewrapper {
   margin: 0;
-  background: #eee url("../images/981.jpg");
+  background: #eee url("../images/worker.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
   border-radius: 0% 3% 3% 0%;
 }
+.formTitle{
+  padding-left: 8%;
+}
 .formTitle h2 {
   text-align: center;
-  color: #7b31c6;
+  color: #0083B0;
   font-size: 1.8rem;
 }
 
@@ -123,11 +127,10 @@ input::placeholder {
 .form-element .btn {
   width: 150px;
   border: none;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(64, 84, 178, 1) 0%,
-    rgba(219, 2, 234, 1) 90%
-  );
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   border-radius: 3%;
   color: #eee;
   font-weight: bold;
@@ -137,9 +140,12 @@ input::placeholder {
 }
 
 .form-element .btn:hover {
-  -webkit-box-shadow: 10px 13px 14px 5px rgba(227, 224, 227, 1);
+  /* -webkit-box-shadow: 10px 13px 14px 5px rgba(227, 224, 227, 1);
   -moz-box-shadow: 10px 13px 14px 5px rgba(227, 224, 227, 1);
-  box-shadow: 5px 5px 7px 2px rgba(227, 224, 227, 1);
+  box-shadow: 5px 5px 7px 2px rgba(227, 224, 227, 1); */
+  -webkit-box-shadow:2px 2px 12px 1px rgba(0,146,194,1);
+  -moz-box-shadow: 2px 2px 12px 1px rgba(0,146,194,1);
+  box-shadow: 2px 2px 12px 1px rgba(0,146,194,1);
 }
 
 .form-element a {
