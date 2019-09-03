@@ -1,36 +1,6 @@
-/* * {
-  padding: 0;
-  margin: 0;
-}
-html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
- 
-}
-main {
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-}
-#login {
-  background: #fff;
-  border: 1px solid #eee;
-  border-radius: 3%;
-  width: 100%;
-  max-width: 500px;
-  height: 300px;
-}
-#wrapper {
-  display: flex;
-  justify-content: space-between;
-} */
 html,
 body {
   height: 100%;
-  /* font-family: "Lato", sans-serif; */
   font-family: "Raleway", sans-serif;
 }
 body {
@@ -72,9 +42,6 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,16 +49,6 @@ body {
   border-radius: 3%;
 }
 .formwrapper {
-  /* height: 100%;
-  padding: 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;*/
   display: -webkit-box;
   display: -moz-box;
   display: -ms-inline-flexbox;
@@ -135,7 +92,6 @@ body {
 .formTitle h2 {
   text-align: center;
   color: #7b31c6;
-  /* font-weight: bold; */
   font-size: 1.8rem;
 }
 
