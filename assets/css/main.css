@@ -2,6 +2,21 @@
   padding: 0;
   margin: 0;
 }
+html {
+  width: 100%;
+  height: 100%;
+}
 
+body {
+  background: #eee url("../images/16204.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 main {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+.login {
+  background: #fff;
 }
